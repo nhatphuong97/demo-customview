@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CurationsInputView">
+        <attr name="civ_inputType" format="integer">
+            <enum name="text" value="0" />
+            <enum name="number" value="1" />
+            <enum name="phone" value="2" />
+            <enum name="password" value="3" />
+        </attr>
+        <attr name="civ_hint" format="string" />
+        <attr name="civ_maxLength" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="LinkageStatusLayout">
+        <attr name="hc_status">
+            <enum name="selected" value="0"/>
+            <enum name="linked" value="1"/>
+            <enum name="unlinked" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="DialogInputView">
+        <attr name="div_inputType" format="integer">
+            <enum name="dateTime" value="0" />
+            <enum name="numberDecimal" value="1" />
+            <enum name="numberDecimalNoDot" value="4" />
+        </attr>
+        <attr name="div_label" format="string" />
+        <attr name="div_unit" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="NumberCustom_Layout">
+
+        <attr name="maxValue" format="integer" />
+        <attr name="minValue" format="integer" />
+    </declare-styleable>
+</resources>
